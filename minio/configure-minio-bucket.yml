@@ -6,7 +6,7 @@
     use_artifact: "{{ use_artifact | default(false) }}"
     mc_path: "{{ labdir }}/mc"
     mc: "{{ mc_path }}"
-    mc_download_url: "https://dl.min.io/client/mc/release/linux-amd64/mc"
+    mc_download_url: "https://github.com/minio/mc/releases/download/RELEASE.2025-08-13T08-35-41Z/mc.linux-amd64.RELEASE.2025-08-13T08-35-41Z"
 
     minio_alias: "minio"
     minio_access_key: "{{ minio_access_key }}"
